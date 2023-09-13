@@ -1,0 +1,42 @@
+aside {
+  position: fixed;
+  top: 40px;
+  left: 0;
+  
+  height: calc(100% - 40px);
+  width: 200px;
+  background-color: #009dff;
+  overflow-x: hidden;
+  transition: width 0.8s;
+  z-index: 90;
+}
+
+.sidenav-collapsed {
+  width: 50px;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 20px;
+  padding: 0;
+}
+
+li {
+  width: 100%;
+}
+
+li a {
+  display: flex;
+  padding: 15px 16px;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+li a:hover {
+  background-color: #3e8e41;
+}
+
+i {
+  margin-right: 15px;
+}

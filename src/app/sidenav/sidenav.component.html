@@ -1,0 +1,23 @@
+<aside class="sidenav" [ngClass]="{ 'sidenav-collapsed': isCollapsed }">
+    <ul>
+      <li>
+        <a href="#">
+          <i class="fas fa-home"></i>
+          <span *ngIf="!isCollapsed">Inicio</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fas fa-user"></i>
+          <span *ngIf="!isCollapsed">Perfil</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fas fa-cog"></i>
+          <span *ngIf="!isCollapsed">Configuración</span>
+        </a>
+      </li>
+    </ul>
+  </aside>
+  

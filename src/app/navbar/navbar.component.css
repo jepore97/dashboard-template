@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  align-items: center;
+  background-color: #009dff;
+  padding: 0.5rem 1rem;
+  position: fixed;
+  color:"fff";
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  z-index: 100;
+  transition: opacity 2.5s ease-in-out;
+}
+
+.logo  {
+  display: flex;
+  color:white;
+  align-items: center;
+  font-size: 25px;
+  transition: opacity 2.5s ease-in-out;
+}
+.logo h1 {
+  margin: 10px;
+  font-size: 25px;
+  transition: opacity 2.5s ease-in-out;
+}
+
+.toggle-btn {
+  background-color: transparent;
+  color: white;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 2.5s ease-in-out;
+}
+
+.logo .fade-in-out {
+  transition: opacity 2.5s ease-in-out;
+}
